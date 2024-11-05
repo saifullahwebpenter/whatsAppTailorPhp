@@ -1,0 +1,19 @@
+@media only screen and (max-width:1010px) {
+    /* .right-container{
+        display: none;
+    } */
+    .search-container{
+       /* justify-content: center; */
+    }
+    .search-container i{
+        position: absolute;
+        left: 2rem;
+    }
+    .search-container .input input{
+       width:100%
+    }
+    .chat-container{
+        height: 520px;
+    }
+}
+

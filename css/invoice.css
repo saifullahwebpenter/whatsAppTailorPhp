@@ -1,0 +1,18 @@
+.invoice-list-box-container .order-list-complete a{
+    padding: 5px;
+    margin: 3px 0;
+}
+.invoice-list-box-container .order-list-price p{
+    margin: 0;
+}
+.invoice-list-box-container .order-list-price p span{
+    color: #3ebfab;
+    border-bottom: 1px solid #3ebfab;
+}
+.invoice-list-box-container{
+    padding: 20px 10px;
+    box-shadow: 2px 2px 5px 4px rgba(0,0,0,0.2);
+    overflow: auto;
+    height: calc(73vh - 0px);  
+    background-color: #fff;
+}

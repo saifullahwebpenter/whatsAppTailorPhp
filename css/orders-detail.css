@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.order-detail-container {
+       /* width: 90%; */
+    /* max-width: 500px; */
+    /* margin: 40px auto; */
+    background: #fff;
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    overflow: auto;
+    height: calc(82vh - 0px);  
+}
+
+.order-header {
+    background: #ededed;
+    color: #111;
+    border-top: 1px solid #d3d3d3;
+    padding: 16px;
+    height: 67px;
+    position: sticky;
+    top: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background: #ededed;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.order-header h1 {
+    font-size: 24px;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+.edit-view {
+    text-align: center;
+    margin: 20px 0 0 0 ;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.edit-view a{
+    padding:10px;
+    /* color: white; */
+    border-radius: 10px;
+color: #111;
+}
+.edit-view a:hover{
+    cursor: pointer;
+}
+.edit-view a i{
+    font-size: 20px;
+}
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.label {
+    font-weight: 500;
+    color: #777;
+}
+
+.value {
+    font-weight: 400;
+}
+
+.status-processing {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.customer-info h2, .order-summary h2 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #333;
+}
+
+.order-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #06e744;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.action-button:hover{
+    background-color: #00eb43e1;;
+}
+
+.action-button.secondary {
+    background-color: #f44336;
+}
+.action-button.secondary:hover {
+    background-color: #f11909b0;
+}
+.customer-info input{
+    max-width: 100px;
+    min-width: 50px;
+}
+.measurements{
+    padding: 10px;
+}
+.measurements label{
+    font-size: 14px;
+}

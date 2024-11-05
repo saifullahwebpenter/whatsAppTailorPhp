@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/orders-detail.css">
+    <!-- link with fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+     <!-- link with fontawesome -->
+  <link
+  rel="stylesheet"
+  data-purpose="Layout StyleSheet"
+  title="Web Awesome"
+  href="/css/app-wa-54e7be3a62ca9b7580d7f8c669f59e74.css?vsn=d"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+/>
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Whatsapp Clone</title>
+
+</head>
+
+<body>
+    <div class="background-green"></div>
+
+
+    <div class="main-container">
+        <div class="left-container" id="left-container">
+
+            <!--header -->
+            <div class="header">
+                <div class="user-img">
+                    <img class="dp" src="https://www.codewithfaraz.com/InstaPic.png" alt="">
+                </div>
+                <div class="nav-icons">
+                    <i class="fa-solid fa-users"></i>
+                    <i class="fa-solid fa-message"></i>
+                    <i class="fa-solid fa-ellipsis-vertical" id="three-dots">
+                    </i>
+
+                </div>
+
+            </div>
+            <!-- Dropdown menu for the third icon -->
+            <div class="dropdown-menu" id="dropdown-menu">
+                <a href="profile.html">Profile</a>
+                <a href="#">Updates</a>
+                <a href="#">Help</a>
+                <a href="#">Settings</a>
+                <a href="/Login-Signup/login.html">Log out</a>
+                <a href="#dashboard" id="dashboard-link">Dashboard</a>
+            </div>
+
+            <!--notification -->
+            <div class="notif-box" id="notifBox">
+                <i class="fa-solid fa-bell-slash"></i>
+                <div class="notif-text">
+                    <p>Get Notified of New Messages</p>
+                    <a href="#">Turn on Desktop Notifications ›</a>
+                </div>
+                <i class="fa-solid fa-xmark" id="closeNotif"></i>
+            </div>
+            <!--search-container -->
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search or start new chat   ">
+            </div>
+
+
+            <!--chats -->
+            <div class="chat-list">
+                <a href="chat.html">
+                    <div class="chat-box">
+                        <div class="img-box">
+                            <img class=""
+                                src="https://lh5.googleusercontent.com/-7ssjf_mDE1Q/AAAAAAAAAAI/AAAAAAAAASo/tioYx2oklWEHoo5nAEyCT-KeLxYqE5PuQCLcDEAE/s100-c-k-no-mo/photo.jpg"
+                                alt="">
+                        </div>
+                        <div class="chat-details">
+                            <div class="text-head">
+                                <h4>Nowfal</h4>
+                                <p class="time unread">11:49</p>
+                            </div>
+                            <div class="text-message">
+                                <p>“How are you?”</p>
+                                <b>1</b>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="chat.html">
+                    <div class="chat-box">
+                        <div class="img-box">
+                            <img class="img-cover"
+                                src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt="">
+                        </div>
+                        <div class="chat-details">
+                            <div class="text-head">
+                                <h4>Rohan</h4>
+                                <p class="time unread">10:49</p>
+                            </div>
+                            <div class="text-message">
+                                <p>“I’ll be there.”</p>
+                                <b>4</b>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="chat.html">
+                    <div class="chat-box">
+                        <div class="img-box">
+                            <img class="img-cover"
+                                src="https://images.pexels.com/photos/8367221/pexels-photo-8367221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt="">
+                        </div>
+                        <div class="chat-details">
+                            <div class="text-head">
+                                <h4>Zoya</h4>
+                                <p class="time unread">09:49</p>
+                            </div>
+                            <div class="text-message">
+                                <p>“Make somebody’s day.”</p>
+                                <b>2</b>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="chat.html">
+                    <div class="chat-box">
+                        <div class="img-box">
+                            <img class="img-cover"
+                                src="https://images.pexels.com/photos/3564412/pexels-photo-3564412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt="">
+                        </div>
+                        <div class="chat-details">
+                            <div class="text-head">
+                                <h4>Azariah</h4>
+                                <p class="time">06:49</p>
+                            </div>
+                            <div class="text-message">
+                                <p>“Love, light, laughter.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="chat.html">
+                    <div class="chat-box active">
+                        <div class="img-box">
+                            <img class="img-cover"
+                                src="https://images.pexels.com/photos/2474307/pexels-photo-2474307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt="">
+                        </div>
+                        <div class="chat-details">
+                            <div class="text-head">
+                                <h4>Leo</h4>
+                                <p class="time">07:49</p>
+                            </div>
+                            <div class="text-message">
+                                <p>Awesome! I'll start a vid..</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="chat.html">
+                    <div class="chat-box">
+                        <div class="img-box">
+                            <img class="img-cover"
+                                src="https://images.pexels.com/photos/3564412/pexels-photo-3564412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt="">
+                        </div>
+                        <div class="chat-details">
+                            <div class="text-head">
+                                <h4>Azariah</h4>
+                                <p class="time">06:49</p>
+                            </div>
+                            <div class="text-message">
+                                <p>“Love, light, laughter.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="chat.html">
+                    <div class="chat-box">
+                        <div class="img-box">
+                            <img class="img-cover"
+                                src="https://images.pexels.com/photos/2919367/pexels-photo-2919367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt="">
+                        </div>
+                        <div class="chat-details">
+                            <div class="text-head">
+                                <h4>Oliver</h4>
+                                <p class="time unread">Yesterday</p>
+                            </div>
+                            <div class="text-message">
+                                <p>“Appreciate the mome..”</p>
+                                <b>2</b>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+               <a href="chat.html">
+                <div class="chat-box">
+                    <div class="img-box">
+                        <img class="img-cover"
+                            src="https://images.pexels.com/photos/14526673/pexels-photo-14526673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <div class="chat-details">
+                        <div class="text-head">
+                            <h4>Jeslin</h4>
+                            <p class="time">Yesterday</p>
+                        </div>
+                        <div class="text-message">
+                            <p>“Now or never.”</p>
+                        </div>
+                    </div>
+                </div>
+               </a>
+        </div>
+        </div>
+        <div class="right-container" id="right-container">
+            <!--header -->
+            <div class="header">
+                <div class="img-text">
+                    <a href="index.html" class="fa-regular fa-arrow-left"></a>
+                    <div class="user-img">
+                        <img class="dp"
+                            src="https://images.pexels.com/photos/2474307/pexels-photo-2474307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <h4>Leo<br><span>Online</span></h4>
+                </div>
+                <div class="nav-icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+
+            <!-- order DETAILS-->
+            <div class="order-detail-container">
+                <header class="order-header">
+                    <div class="header-content">
+                        <h1>Invoice Detail</h1>
+                       <a href="invoices.html"> <button class="back-button">Back to Invoices</button></a>
+                    </div>
+                </header>
+                <div class="edit-view">
+                    <a href="invoices-detail.html"> <i class="fa-solid fa-eye"></i></a>
+                </div>
+                <section class="order-info">
+                    <div class="info-row">
+                        <span class="label">Order #:</span>
+                        <span class="value">#3480</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="label">Order Date:</span>
+                        <span class="value">02 Dec 2017</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="label">Status:</span>
+                        <span class="value status-processing">Processing</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="label">Updated At</span>
+                        <span class="value">2024-DEC-14</span>
+                    </div>
+                </section>
+                    <div class="measurements">
+                        <div class="box">
+                            <label for="">Measurement Date</label>
+                            <input type="date" placeholder="">
+                        </div>
+                        <div class="box">
+                            <label for="">Measurement Time</label>
+                            <input type="time" placeholder="">
+                        </div>
+                        <div class="box">
+                            <label for="">Chest</label>
+                            <input type="number" placeholder="">
+                        </div>
+                        <div class="box">
+                            <label for="">Shoulder</label>
+                            <input type="number" placeholder="">
+                        </div>
+                        <div class="box">
+                            <label for="">Sleeves</label>
+                            <input type="number" placeholder="">
+                        </div>
+                        <div class="box">
+                            <label for="">Collar</label>
+                            <input type="number" placeholder="">
+                        </div>
+                        <div class="box">
+                            <label for="">Cuff</label>
+                            <input type="number" placeholder="">
+                        </div>
+                        <div class="box">
+                            <label for="">Shalvaar Length</label>
+                            <input type="number" placeholder="">
+                        </div>
+                        <div class="box">
+                            <label for="">Shalvaar Bottom</label>
+                            <input type="number" placeholder="">
+                        </div>
+                    </div>
+                <section class="order-summary">
+                    <h2>Order Summary</h2>
+                    <div class="info-row">
+                        <span class="label">Total:</span>
+                        <span class="value">$154.00</span>
+                    </div>
+                </section>
+            
+                <footer class="order-footer">
+                    <a href="invoices-detail.html"><button class="action-button">Submit Changes</button></a>
+                </footer>
+            </div>
+            <!--input-bottom -->
+            <div class="chatbox-input">
+                <i class="fa-regular fa-face-grin"></i>
+                <i class="fa-sharp fa-solid fa-paperclip"></i>
+                <input type="text" placeholder="Type a message">
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
